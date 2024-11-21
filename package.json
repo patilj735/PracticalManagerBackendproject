@@ -1,0 +1,22 @@
+{
+  "name": "practicalmanager",
+  "version": "1.0.0",
+  "description": "The Practical Management System to manage practical submissions.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cd api && node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Janhavi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
